@@ -19,8 +19,10 @@
 <!--                        <a-menu-item key="setting:1">Option 1</a-menu-item>-->
 <!--                        <a-menu-item key="setting:2">Option 2</a-menu-item>-->
 <!--                    </a-menu-item-group>-->
-                    <a-menu-item key="3">URL编码</a-menu-item>
-                    <a-menu-item key="4">URL解码</a-menu-item>
+                    <a-menu-item key="3">URL编码/解码</a-menu-item>
+                    <a-menu-item key="4">
+                      <router-link to="/encode/base64">Base64编码/解码</router-link>
+                    </a-menu-item>
                 </a-sub-menu>
             </a-menu>
         </a-layout-header>
